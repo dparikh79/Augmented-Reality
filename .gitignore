@@ -1,0 +1,57 @@
+# Build artifacts
+build/
+build-*/
+out/
+bin/
+lib/
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+_deps/
+compile_commands.json
+
+# OpenCV / video capture scratch
+*.avi
+*.mp4
+*.mov
+recordings/
+captures/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+.ccls-cache/
+.clangd/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python (only if scripts get added later)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local secrets / scratch
+.env
+.env.*
+*.local
